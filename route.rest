@@ -1,0 +1,24 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "mohamed"
+}
+
+###
+
+DELETE http://localhost:3000/users/616c074ce3ca871053edd76e
+
+###
+
+PATCH http://localhost:3000/users/616c07da16fe8f731c587d7c
+Content-Type: application/json
+
+{
+    "name": "hamma3"
+}
+
